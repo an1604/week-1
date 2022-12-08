@@ -1,0 +1,150 @@
+@media(min-width:468px){
+
+}
+body{
+    background-color: hsl(229, 57%, 11%);
+
+}
+.block {
+    text-align: center;
+    padding-top: 300px;  
+    font-family: 'Raleway' , sans-serif;
+    
+}
+.top {
+    color: hsl(229, 7%, 55%);
+}
+.pics {
+    padding-right: 1000px;
+    flex-direction:row;
+}
+.pics button {
+    background-color: hsl(229, 59%, 20%);
+    margin:  0;
+}
+#demoBox {
+    width: 50%;
+    height: 170px;
+    background-color:  hsl(229, 59%, 20%) ;
+    border-radius: 15px 100px 15px 15px;
+    position: absolute;
+    right: 22%;
+}
+#box1 {
+    background-color:  hsl(229, 59%, 20%) ;
+    width: 600px;
+}
+#box2 {
+    border-radius: 30px;
+    height: 20px;
+    width: 100%;
+    background: linear-gradient(90deg ,  hsl(6, 100%, 80%) , hsl(335, 100%, 65%));
+    position: absolute;
+    left: 20px;
+    bottom: 5px;
+}
+
+#circle {
+    background-color: white;
+    border-radius: 100%;
+    width: 18px;
+    height: 18px;
+    margin-left: 92%;
+    margin-top: 2px;
+
+}
+.text2 {
+    color: white;
+    position: absolute;
+    right: 5px;
+    top: 12px;
+}
+.text1 {
+    width: 40px;
+    color: white;
+    position: absolute;
+    top: -10px;
+}
+#Boxes {
+    width: 320px;
+    position: absolute;
+    right:30% ;
+    top: 57%;
+}
+#GBtext {
+    position: absolute;
+    left: 1%;
+}
+#text {
+    border-radius: 30px;
+    position: absolute;
+    right: 80px;
+    bottom: 130px;
+    background-color: white;
+    width: 150px;
+    height: 100px;
+    bottom: 80%;
+}
+#GBleft {
+    color: black;
+    font-size: large;
+}
+#storage {
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+}
+#icons {
+    display: inline;
+}
+#upload {
+    position: absolute;
+    top: 31%;
+    left: 90px;
+}
+#folder {
+    position: absolute;
+    top: 30%;
+    left: 40px;
+}
+#doc {
+    position: absolute;
+    bottom: 97px;
+}
+#traingle {
+    margin: 23px 1px 0 0;
+    width: 0;
+    height: 0;
+    border-right: 10px solid white;
+    border-top: 10px solid white;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    color: black;
+    position: absolute;
+    right: 100px;
+    bottom: 120px;
+}
+#costumer-button {
+    padding: 10px;
+    color: white;
+    background-color: green;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+#costumer-button:hover{
+    background-color: pink;
+}
+#costumer-text {
+    margin-left: 10px;
+    font-family: sans-serif;
+    color: #aaa;
+}
+#file {
+    display: flex;
+    position: absolute;
+    top: 35px;
+    left: 2px;
+}
